@@ -1,4 +1,4 @@
-package com.etiya.hms.data.common;
+package com.etiya.hms.model.common;
 
 import lombok.Data;
 

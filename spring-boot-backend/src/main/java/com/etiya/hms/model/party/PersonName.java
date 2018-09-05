@@ -1,17 +1,13 @@
-package com.etiya.hms.models;
+package com.etiya.hms.model.party;
 
 import java.util.Date;
-import java.util.HashSet;
-import java.util.Set;
 
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
 @Data
 @RequiredArgsConstructor
-public class Person {
-    private Date date_of_birth;
-    private Gender gender;
+public class PersonName {
     private String honorific;
     private String givenName;
     private String middleName;
@@ -19,6 +15,8 @@ public class Person {
     private String preferredName;
     private String motherMaidenName;
     private String suffix;
-    private String ethnicity;
-    private Set<PersonName> personNames=new HashSet<PersonName>();
+    private Date validFrom;
+    private Date validThru;
+    private String comment;
+    private String nameUse;
 }

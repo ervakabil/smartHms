@@ -2,7 +2,7 @@ package com.etiya.hms.controllers;
 
 import javax.validation.Valid;
 
-import com.etiya.hms.models.Todo;
+import com.etiya.hms.model.party.Todo;
 import com.etiya.hms.repositories.TodoRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;

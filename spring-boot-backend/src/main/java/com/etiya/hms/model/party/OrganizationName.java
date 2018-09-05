@@ -1,4 +1,4 @@
-package com.etiya.hms.models;
+package com.etiya.hms.model.party;
 
 import lombok.Data;
 import lombok.NonNull;

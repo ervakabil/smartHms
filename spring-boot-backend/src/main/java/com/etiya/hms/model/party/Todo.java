@@ -1,4 +1,4 @@
-package com.etiya.hms.models;
+package com.etiya.hms.model.party;
 
 import java.util.Date;
 import javax.validation.constraints.NotBlank;
