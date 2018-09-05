@@ -13,5 +13,15 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 @EqualsAndHashCode(callSuper=false)
 public class Party {
+	
+    private boolean canceled=false;
+
+    private String code;
+
+    private String shortName;
+    
+    private Person person;
+
+    
 
 }
