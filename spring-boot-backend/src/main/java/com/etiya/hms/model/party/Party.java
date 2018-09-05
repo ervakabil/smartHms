@@ -27,7 +27,6 @@ public class Party {
     
     private List<Address> address=new ArrayList<Address>();
     
-    private List<Contact> contact=new ArrayList<Contact>();
- 
+    private List<Contact> contact=new ArrayList<Contact>(); 
 
 }
