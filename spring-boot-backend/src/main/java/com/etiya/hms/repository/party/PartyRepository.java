@@ -10,5 +10,5 @@ import com.etiya.hms.model.party.Party;
  */
 public interface PartyRepository extends MongoRepository<Party, ObjectId> {
 	
-	//kzlmcşödşlkvm
+	
 }
