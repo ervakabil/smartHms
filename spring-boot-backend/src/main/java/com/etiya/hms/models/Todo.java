@@ -18,6 +18,7 @@ public class Todo {
     @Size(max=100)
     @Indexed(unique=true)
     private String title;
+    
 
     private Boolean completed = false;
 
