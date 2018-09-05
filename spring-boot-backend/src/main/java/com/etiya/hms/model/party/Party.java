@@ -33,6 +33,10 @@ public class Party {
 
     private Boolean completed = false;
     
+    public void setCompleted(Boolean completed) {
+        this.completed = completed;
+    }
+    
     
     
     
