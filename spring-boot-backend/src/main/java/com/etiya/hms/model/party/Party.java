@@ -1,5 +1,6 @@
 package com.etiya.hms.model.party;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,9 +16,8 @@ import lombok.RequiredArgsConstructor;
 @Document(collection = "par_party")
 @TypeAlias("party.Party")
 @Data
-@RequiredArgsConstructor
 @EqualsAndHashCode(callSuper=false)
-public class Party extends Footprint {
+public class Party extends Footprint implements Serializable{
 	
     private boolean canceled=false;
 
@@ -39,8 +39,4 @@ public class Party extends Footprint {
         this.completed = completed;
     }
     
-    
-    
-    
-
 }
