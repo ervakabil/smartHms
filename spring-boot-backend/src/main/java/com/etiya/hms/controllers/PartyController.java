@@ -30,7 +30,9 @@ public class PartyController {
 	@GetMapping("/party")
     public List<Party> getAllParty() {
         Sort sortByCreatedAtDesc = new Sort(Sort.Direction.DESC, "createdAt");
-        return partyRepository.findAll(sortByCreatedAtDesc);
+        List ls =  partyRepository.findAll(sortByCreatedAtDesc);
+        
+        return ls;
     }
 	
 	@PostMapping("/party")

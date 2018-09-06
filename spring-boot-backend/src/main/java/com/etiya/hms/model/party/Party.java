@@ -6,6 +6,8 @@ import java.util.List;
 import org.springframework.data.annotation.TypeAlias;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import com.etiya.hms.model.common.Footprint;
+
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.RequiredArgsConstructor;
@@ -15,7 +17,7 @@ import lombok.RequiredArgsConstructor;
 @Data
 @RequiredArgsConstructor
 @EqualsAndHashCode(callSuper=false)
-public class Party {
+public class Party extends Footprint {
 	
     private boolean canceled=false;
 
