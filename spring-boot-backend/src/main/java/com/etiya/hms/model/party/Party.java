@@ -20,7 +20,7 @@ public class Party {
     private boolean canceled=false;
 
     private String code;
-
+    
     private String shortName;
     
     private Person person;
@@ -30,5 +30,15 @@ public class Party {
     private List<Contact> contact=new ArrayList<Contact>(); 
     
     private Organization organization;
+
+    private Boolean completed = false;
+    
+    public void setCompleted(Boolean completed) {
+        this.completed = completed;
+    }
+    
+    
+    
+    
 
 }
