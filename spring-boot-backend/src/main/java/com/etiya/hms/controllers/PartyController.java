@@ -28,7 +28,7 @@ public class PartyController {
     PartyRepository partyRepository;
 	
 	@GetMapping("/party")
-    public List<Party> getAllTodos() {
+    public List<Party> getAllParty() {
         Sort sortByCreatedAtDesc = new Sort(Sort.Direction.DESC, "createdAt");
         return partyRepository.findAll(sortByCreatedAtDesc);
     }
@@ -39,8 +39,13 @@ public class PartyController {
         return partyRepository.save(party);
     }
 	
+	
+	
+	}
+	
+	
 
 	
 	
 
-}
+

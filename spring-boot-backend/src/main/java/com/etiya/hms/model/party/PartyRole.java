@@ -66,4 +66,10 @@ public class PartyRole extends Footprint {
         this.party = party;
         this.partyRoleType = partyRoleType;
     }
+
+	
+
+
+    
+    
 }
