@@ -1,0 +1,17 @@
+server:
+  port: 9090
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8061/eureka/
+      
+spring:
+   data:
+      mongodb.host: localhost
+      mongodb.port: 27017
+      mongodb.uri: mongodb://localhost:27017/smarthms
+      mongo.repositories.enabled: true      
+      
+server:
+  servlet:
+    context-path: /hms   
